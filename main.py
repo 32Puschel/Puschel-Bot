@@ -28,5 +28,8 @@ async def on_message(message):
 		await message.channel.send('No u')
 	if message.content == 'p!help':
 		await message.channel.send('No u') #gotta figure out how embeds work first
+	if message.content == 'p!':
+		await message.channel.send('Yes, thats my prefix')
+
 
 client.run('your Bot token')
