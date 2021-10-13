@@ -33,3 +33,4 @@ async def on_message(message):
 
 
 client.run('your Bot token')
+#I totally didnt accidently put my token here
